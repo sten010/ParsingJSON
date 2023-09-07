@@ -3,7 +3,7 @@
   <PropertyGroup />
   <ItemGroup />
   <ItemGroup>
-    <Page Update="src\MainWindow.xaml">
+    <Page Update="src\Main\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

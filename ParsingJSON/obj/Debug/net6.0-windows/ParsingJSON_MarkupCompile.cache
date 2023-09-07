@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-2-948615976
+21419343588
 
-3233491513
+3-1509886986
 194726069201
-src\App.xaml;src\MainWindow.xaml;
+src\Main\App.xaml;src\Main\MainWindow.xaml;
 
 False
 
