@@ -1,3 +1,8 @@
+D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Authorization\AuthorizationForm.baml
+D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Main\MainWindow.baml
+D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Authorization\AuthorizationForm.g.cs
+D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Main\MainWindow.g.cs
+D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\ParsingJSON_Content.g.cs
 D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\ParsingJSON_MarkupCompile.cache
 D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\ParsingJSON_MarkupCompile.lref
 D:\C#\ParsingJSON\ParsingJSON\bin\Debug\net6.0-windows\ParsingJSON.exe
@@ -15,7 +20,5 @@ D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\refint\ParsingJSON.dll
 D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\ParsingJSON.pdb
 D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\ParsingJSON.genruntimeconfig.cache
 D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\ref\ParsingJSON.dll
-D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Main\App.g.cs
-D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Main\MainWindow.g.cs
-D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Main\App.baml
-D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\Main\MainWindow.baml
+D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\System\App.g.cs
+D:\C#\ParsingJSON\ParsingJSON\obj\Debug\net6.0-windows\src\System\App.baml

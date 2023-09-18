@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-21419343588
-
-3-1509886986
-194726069201
-src\Main\App.xaml;src\Main\MainWindow.xaml;
+3-9238139
+1492459120
+4-1322234299
+194183970531
+src\Authorization\AuthorizationForm.xaml;src\Main\MainWindow.xaml;src\System\App.xaml;
 
 False
 

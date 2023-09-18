@@ -5,10 +5,48 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <BaseOutputPath>bin\</BaseOutputPath>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <ErrorReport>send</ErrorReport>
+    <ApplicationIcon>icons8-quest-64 (1).ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="src\image\back-image.jpg" />
+    <None Remove="src\image\Exit.png" />
+    <None Remove="src\image\key-icon.png" />
+    <None Remove="src\image\Logo.png" />
+    <None Remove="src\image\MaxSize.png" />
+    <None Remove="src\image\MinSize.png" />
+    <None Remove="src\image\user-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icons8-quest-64 (1).ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="tests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="src\image\back-image.jpg" />
+    <Resource Include="src\image\Exit.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="src\image\key-icon.png" />
+    <Resource Include="src\image\Logo.png" />
+    <Resource Include="src\image\MaxSize.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="src\image\MinSize.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="src\image\user-icon.png" />
   </ItemGroup>
 
 </Project>

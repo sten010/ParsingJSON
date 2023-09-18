@@ -6,12 +6,28 @@
         x:Name="window"
         MouseDown="Window_MouseDown"
         mc:Ignorable="d" AllowsTransparency="True" Background="Transparent" WindowStyle="None"  
-        Title="MainWindow" Height="450" Width="800">
-    <Border CornerRadius="25" BorderBrush="Black" BorderThickness="2" Padding="6" Background="GhostWhite">
-            <Grid VerticalAlignment="Top" Height="30" HorizontalAlignment="Right" Width="230" Margin="0,5,5,0" >
-                <Button Content="*"  Width="25" Margin="200,0,6,0" Click="Close_Click"/>
-                <Button Content="[]"  Width="25"  Margin="170,0,32,0" Click="Maximize_Click"/>
-                <Button Content="-" Width="25"  Margin="125,0,44,0" Click="Minimize_Click"/>
-            </Grid>
-        </Border>
+        Title="MainWindow" Height="800" Width="1200">
+
+    <Border CornerRadius="25" BorderBrush="Black" BorderThickness="2" Padding="6" Background="#121212">
+        <Grid >
+            <DockPanel VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10">
+                <Button Name="MinSizeButton" Background="Transparent" BorderBrush="Transparent"  Width="50" Height="55" Click="Minimize_Click" HorizontalAlignment="Right" >
+                    <Image Source="\src\image\MinSize.png" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Center" Height="45"/>
+                </Button>
+                <Button Name="MaxSizeButton" Background="Transparent" BorderBrush="Transparent" Width="50" Height="55" Click="Maximize_Click" HorizontalAlignment="Right" >
+                    <Image Source="/src/image/MaxSize.png" Stretch="Fill" VerticalAlignment="Top" HorizontalAlignment="Center" Height="45" StretchDirection="DownOnly"/>
+                </Button>
+                <Button Name="ExitButton" Background="Transparent" BorderBrush="Transparent"  Width="50" Height="55" Click="Close_Click" HorizontalAlignment="Right">
+                    <Image Source="/src/image/Exit.png" />
+                </Button>
+            </DockPanel>
+            <DockPanel VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Margin="10">
+                <Button Name="First" Background="Transparent" BorderBrush="Transparent"  Width="185" Height="55" Click="Minimize_Click" >
+                    <Image Source="/src/image/Logo.png" HorizontalAlignment="Left" StretchDirection="DownOnly" Width="167"/>
+                </Button>
+            </DockPanel>
+        </Grid>
+    </Border>
+
+
 </Window>
